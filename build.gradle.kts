@@ -6,6 +6,8 @@ repositories {
     mavenCentral()
 }
 kotlin {
+    // Add jvm() here to fix the issue
+    // jvm()
     iosSimulatorArm64()
 
     sourceSets {
